@@ -1,8 +1,5 @@
-function takeANumber(currentLine,newperson){
-  var i = currentLine.length
-while(i>0){
-  return "Welcome,"+newperson+"you are number"+currentLine[i]+"line"
-  i--;
-}
-
+function takeANumber(kartzdeliline,newperson){
+  kartzdeliline.push(newperson)
+  return `Welcome, ${newperson} You are number ${kartzdeliline.length} line`
+  
 }
