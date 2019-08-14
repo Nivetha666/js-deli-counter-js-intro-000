@@ -13,6 +13,7 @@ function nowServing(kartzdeliline){
   else
   return (`Currently serving ${kartzdeliline.shift()}.`);
 }
+var line = []
 function currentLine(katzDeli) {
   for (let i = 0; i < katzDeli.length; i++) {
     line.push(` `+[i+1]+`. `  + katzDeli[i])
